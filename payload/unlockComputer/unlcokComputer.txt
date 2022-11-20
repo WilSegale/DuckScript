@@ -1,0 +1,9 @@
+REM Description: unlock your computer as a recovery key
+REM Author: wilsegale
+REM works on mac linux windows 10 and higher
+
+MOUSE CLICK 1
+DELAY 2000
+STRING <input your password>
+DELAY 100
+ENTER
