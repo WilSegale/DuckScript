@@ -1,5 +1,5 @@
 REM Description: unlock your computer as a recovery key
-REM Author: wilsegale
+REM Author: https://github.com/wilsegale
 REM works on mac linux windows 10 and higher
 
 MOUSE CLICK 1

