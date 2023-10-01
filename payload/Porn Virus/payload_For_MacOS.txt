@@ -1,0 +1,37 @@
+GUI SPACE
+DELAY 200
+CTRL m
+DELAY 200
+STRING terminal
+ENTER
+DELAY 2000
+STRING cd Desktop
+ENTER
+DELAY 2000
+STRING nano ClickMe
+ENTER
+DELAY 200
+STRING open https://onlyfans.com/
+DELAY 200
+ENTER
+STRING open https://pornhub.com/
+DELAY 200
+ENTER 
+STRING open https://hanime.tv/search
+DELAY 200
+ENTER
+STRING open https://sex.com/
+DELAY 200
+ENTER
+STRING open https://www.xvideos.com/
+DELAY 200
+CONTROL X
+DELAY 200
+STRING Y
+DELAY 200
+ENTER
+DELAY 200
+STRING chmod +x *
+ENTER
+DELAY 200
+CTRL w
