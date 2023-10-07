@@ -46,10 +46,13 @@ DELAY 2000
 REM input the porn site in the attack file
 STRING START https://nhentai.io/
 DELAY 2000
+
 ENTER
 DELAY 2000
+
 REM input the porn site in the attack file
 STRING START https://www.pornelephant.org/
+
 ENTER
 DELAY 2000
 
