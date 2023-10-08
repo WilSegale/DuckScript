@@ -31,3 +31,5 @@ ENTER
 DELAY 200
 STRING chmod +x *
 ENTER
+DELAY 2000  ; Delay for 2 seconds to ensure the application is focused
+GUI q  ; Press Command (⌘) and Q keys together to quit the active application
