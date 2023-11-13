@@ -1,0 +1,74 @@
+
+DELAY 500
+REM Ping Google
+STRING ping google.com -t 3
+ENTER
+DELAY 5000
+REM Traceroute to Google
+STRING traceroute google.com
+ENTER
+DELAY 5000
+REM Check csrutil status
+STRING csrutil status
+ENTER
+DELAY 5000
+REM View pfctl information
+STRING sudo pfctl -s info
+ENTER
+DELAY 5000
+REM View system software information
+STRING system_profiler SPSoftwareDataType
+ENTER
+DELAY 5000
+REM List all network services
+STRING networksetup -listallnetworkservices
+ENTER
+DELAY 5000
+REM List all hardware ports
+STRING networksetup -listallhardwareports
+ENTER
+DELAY 5000
+REM Display disk space usage
+STRING df -h
+ENTER
+DELAY 5000
+REM Display mounted filesystems
+STRING mount
+ENTER
+DELAY 5000
+REM Display process information
+STRING ps aux
+ENTER
+DELAY 5000
+REM Display process IDs excluding grep
+STRING ps -ef | grep -v grep | awk '{print $2}'
+ENTER
+DELAY 5000
+REM List all users
+STRING dscl . -list /Users
+ENTER
+DELAY 5000
+REM Display system logs
+STRING cat /var/log/system.log
+ENTER
+DELAY 5000
+REM Perform DNS lookup for Google
+STRING nslookup google.com
+ENTER
+DELAY 5000
+REM View pfctl rules
+STRING sudo pfctl -sa
+ENTER
+DELAY 5000
+REM Display virtual memory statistics
+STRING vm_stat
+ENTER
+DELAY 5000
+REM Show SSH process logs
+STRING log show --predicate 'process == "ssh"' --info
+ENTER
+DELAY 5000
+REM Show SSHD process logs
+STRING log show --predicate 'process == "sshd"' --info
+ENTER
+
